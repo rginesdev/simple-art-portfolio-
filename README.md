@@ -1,6 +1,6 @@
-# simple-art-portfolio-
+# Responsive landing page-
 
-Responsive landing page
+Simple landing page i did for a student 
 
 ![](screenshots/BeatheBee.png "screenshot of landing page")
 
