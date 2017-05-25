@@ -1,3 +1,3 @@
 # simple-art-portfolio-
 
-![alt text](screenshot/beathebee.png "screenshot of landing page")
+![alt text](images/beathebee.png "screenshot of landing page")
