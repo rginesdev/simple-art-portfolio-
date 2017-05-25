@@ -1,0 +1,219 @@
+
+
+body {
+	font-family: 'Roboto', san-serif;
+	
+}
+
+h1 h3 {
+	font-family: 'Muli', san-serif;
+}
+
+/*  GRID OF TWO   ============================================================================= */
+
+
+.span_2_of_2 {
+	width: 100%;
+}
+
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2 {
+		width: 100%; 
+	}
+	.span_1_of_2 {
+		width: 100%; 
+	}
+}
+
+/*  SECTIONS  ============================================================================= */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+/*  GRID OF THREE   ============================================================================= */
+
+	
+.span_3_of_3 {
+	width: 100%; 
+}
+
+.span_2_of_3 {
+	width: 66.13%; 
+}
+
+.span_1_of_3 {
+	width: 32.26%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+
+	}
+}
+
+header {
+	display: inline-block; 
+	width: 100%; 
+
+}
+
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: ;
+
+}
+
+
+li {
+	display: inline;
+	float: left;
+	border-right: 1px solid #bbb;
+	
+}
+
+ul.topnav li a:hover {
+	color: #5e6060;
+}
+
+ul.topnav li a {
+	display: inline;
+	color: #afdbd1 ;
+	text-align: ;
+	padding: 14px 16px ;
+	width: 100%;
+	text-decoration: none;
+	
+
+
+}
+
+#about, div {
+	text-align: center;
+
+	
+}
+
+img.profile {
+	margin-top: 45px;
+}
+
+blockquote {
+	text-align: center;
+	font-style: italic;
+}
+
+.bio {
+	text-align: justify;
+	margin: auto;
+	width: 50%;
+	height: 40%;
+}
+
+#art {
+	padding-bottom: 25px;
+}
+
+.photos {
+	padding: 15px;
+}
+
+#social {
+	height: 200px;
+	border-top: .2px solid #aaaaa9;
+}
+ .final{
+ 	width: 480px;
+ }
+
+ 
+ .mainmedia {
+	width:100%; 
+	margin-top: 30px;
+
+}
+
+
+a.media {
+	margin: 0;
+	width: 20px;
+	text-decoration: none;
+	color: black;
+}
+a.media:hover {
+	color: #5e6060;
+
+}
+
+footer {
+	width: 100%;
+	height: 30px;
+}
+
+.clearfix {
+	clear: both;
+}
+a.contact {
+	text-decoration: none;
+	color: #5e6060 ;
+}
+
+
+
+
+
